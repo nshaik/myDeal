@@ -1,0 +1,40 @@
+.progress-container{
+	position: relative;
+}
+.progress{
+	position: relative;
+    border-radius: 0px;
+    height: 8px;
+    box-shadow: none;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 20px;
+}
+.progress-bar{
+	position: absolute;
+	float: none;
+	z-index: 9
+}
+.step-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #5CB85C;
+    top: -11px;
+    left:50%;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+.step-icon:nth-child(2) {
+    left: 12%;
+    margin-left: 0;
+}
+.step-icon:last-child {
+    right: 12%;
+    left: initial;
+    margin-left: 0;
+}
+.table th{
+	text-align: center;
+}

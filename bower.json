@@ -1,0 +1,22 @@
+{
+  "name": "shaik",
+  "description": "My Web",
+  "main": "index.js",
+  "authors": [
+    "shaik"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nshaik/myDeal",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "https://github.com/jquery/jquery.git#~2.1.4"
+  }
+}
