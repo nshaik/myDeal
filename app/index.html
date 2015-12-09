@@ -11,36 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body ng-app="store">
-    <div class="left">
-      
-      <div class="logo"></div>
-      <ul class="nav">
-        <li><a href="#/dashboard">Dashboard</a></li>
-        <li><a href="#/items">Items</a></li>
-        <li><a href="#/locations">Locations</a></li>
-        <li><a href="#/dashboard">Dashboard</a></li>
-        <li><a href="#/dashboard">Dashboard</a></li>
-      </ul>
-
-    </div>
-    <div class="right">
-        <div class="top-panel">
-          <div class="col-sm-4">
-            <button class="btn btn-primary"><i class="fa fa-bars"></i></button>
-
-            <input type="text">
-            </div>
-
-        </div>
-        <div class="well-title">
-          
-          <h2>Page Title</h2>
-          home / page
-
-        </div>
-        <div class="main-container" ng-view></div>
-    </div>
+  <body ng-app="st">
+    <st-layout></st-layout>
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -49,5 +21,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="modules/items/js/items.js"></script>
     <script src="modules/app/js/app.js"></script>
+    <script src="components/nav/js/nav.js"></script>
+    <script src="components/logo/js/logo.js"></script>
+    <script src="components/layout/js/layout.js"></script>
   </body>
 </html>

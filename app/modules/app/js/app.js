@@ -1,4 +1,4 @@
-angular.module('store',['ngRoute','m_items'])
+angular.module('st',['ngRoute','m_items','nav','logo','layout'])
 
 .config(['$routeProvider', function($routeProvider){
 
