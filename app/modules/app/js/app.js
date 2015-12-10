@@ -1,4 +1,4 @@
-angular.module('st',['ngRoute','m_items','nav','logo','layout'])
+angular.module('st',['ngRoute','layout'])
 
 .config(['$routeProvider', function($routeProvider){
 
