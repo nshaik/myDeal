@@ -1,4 +1,4 @@
-angular.module('header',['nav','logo','m_items'])
+angular.module('header',[])
 
 .directive('stHeader', function() {
   return {
