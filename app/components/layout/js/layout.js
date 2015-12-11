@@ -1,4 +1,4 @@
-angular.module('layout',['nav','logo','m_items'])
+angular.module('layout',['nav','logo','header', 'titleSection', 'm_items'])
 
 .directive('stLayout', function() {
   return {
