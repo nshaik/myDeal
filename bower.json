@@ -19,6 +19,7 @@
   "dependencies": {
     "jquery": "https://github.com/jquery/jquery.git#~2.1.4",
     "angular": "https://github.com/mgcrea/bower-angular2-build.git",
-    "bootstrap": "https://github.com/twbs/bootstrap.git"
+    "bootstrap": "https://github.com/angular-ui/bootstrap.git#~0.14.3",
+    "angular-bootstrap":"angular-bootstrap"
   }
 }

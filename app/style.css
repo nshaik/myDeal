@@ -6,8 +6,22 @@ body{
     background-color: #f5f5f5;
     font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
-h2{
+.logo{
+    height: 100px; background-color: #000; opacity: 0.4
+}
+.nav>li>a{
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #5FCE9B;  
+}
+.nav>li.active>a,.nav>li.active>a:focus, .nav>li.active>a:hover
+{
+     background-color: #5FCE9B;
+}
+.well-title h2{
     font-weight: 300;
+    margin-top: 0px;
 }
 .left {
     width: 220px;
@@ -37,4 +51,28 @@ h2{
 }
 .main-container{
     padding:1em 2em;
+}
+.dashboard-labels div div{
+    height:100px;
+    background-color: #5FCE9B;
+    color: #fff; 
+    font-size: 20px;
+    padding: 15px;
+}
+.dashboard-labels .fa{
+    font-size: 4em;
+    float: right;
+    opacity: 0.3
+}
+.dashboard-labels div:hover .fa{
+    opacity: 0.8
+}
+.dashboard-labels div:nth-child(2) div{
+    background-color: #66B5D6;
+}
+.dashboard-labels div:nth-child(3) div{
+    background-color: #E87352;
+}
+.dashboard-labels div:nth-child(4) div{
+    background-color: #EECA5A;
 }

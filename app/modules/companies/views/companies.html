@@ -1,0 +1,23 @@
+<div uib-collapse="isCollapsed">
+		<div class="well well-lg">Some content</div>
+	</div>
+
+	<button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed"><i class="fa fa-plus"></i></button>
+
+
+  <div class="panel panel-default">
+  <table class="table">
+	<thead>
+		<tr>
+			<th>Company Name</th>
+			<th>Invested capital</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="company in companies">
+			<td>{{company.name}}</td>
+			<td>{{company.capital}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>
