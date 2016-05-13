@@ -13,22 +13,19 @@ router.route('/')
         connection.query('SELECT * FROM items', function(err, result) {
             if (err) throw err;
             res.send(result);
-            console.log(result.insertId);
         });
     })
     .post(function(req, res) {
         connection.query('INSERT INTO items SET ?', req.body, function(err, result) {
             if (err) throw err;
-            res.send(result);
+            res.send("Item Added Successfully!");
         });
     });
 router.route('/:id')
     .delete(function(req, res) {
-    	var _id = req.params.id;
-        connection.query('DELETE FROM items WHERE id='+_id, function(err, result) {
+        connection.query('DELETE FROM items WHERE id=' + req.params.id, function(err, result) {
             if (err) throw err;
-            res.send(result);
-            console.log(result);
+            res.send("Item Deleted Successfully!");
         });
     })
     /*.put(function(req, res) {
@@ -38,6 +35,7 @@ router.route('/:id')
             res.send(result);
             console.log(result);
         });
-    })*/;
+    })*/
+;
 
 module.exports = router;
