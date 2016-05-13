@@ -15,8 +15,15 @@ angular.module('module_items', [])
         $scope.modifier = Boolean(($filter("filter")($scope.items, { selected: true })).length);
     };
     $scope.save = function(s) {
-        $http.post('api/items').success(function(result) {
+        $http.post('api/items',s).success(function(result) {
             $scope.items.push(result);
+        }).error(function(e) {
+
+        });
+    };
+    $scope.delete=function(d){
+    	$http.delete('api/items/'+d).success(function(result) {
+            //$scope.items.push(result);
         }).error(function(e) {
 
         });

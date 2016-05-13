@@ -22,27 +22,27 @@
                 <td>
                 </td>
                 <td>
-                    <input type="text" ng-model="addObj.name" class="form-control input-sm">
+                    <input type="text" ng-model="addObj.item_name" class="form-control input-sm">
                 </td>
                 <td>
-                    <input type="text" ng-model="addObj.code" class="form-control input-sm">
+                    <input type="text" ng-model="addObj.item_code" class="form-control input-sm">
                 </td>
                 <td>
-                    <input type="text" ng-model="addObj.manufacture" class="form-control input-sm">
+                    <input type="text" ng-model="addObj.manufacturer" class="form-control input-sm">
                 </td>
                 <td>
                     <input type="text" ng-model="addObj.unit" class="form-control input-sm">
                 </td>
                 <td>
-                    <input type="text" ng-model="addObj.invoice" class="form-control input-sm">
+                    <input type="text" ng-model="addObj.in_price" class="form-control input-sm">
                 </td>
                 <td>
-                    <input type="text" ng-model="addObj.sale" class="form-control input-sm">
+                    <input type="text" ng-model="addObj.out_price" class="form-control input-sm">
                 </td>
                 <td>
                     <div class="btn-group">
                         <button type="button" class="btn btn-xs btn-primary" ng-click="save(addObj)"><i class="fa fa-ok"></i></button>
-                        <button type="button" class="btn btn-xs btn-danger" ng-click="addObj=null"><i class="fa fa-trash"></i></button>
+                       
                     </div>
                 </td>
             </tr>
@@ -59,7 +59,7 @@
                 <td>
                     <div class="btn-group">
                         <button type="button" class="btn btn-xs btn-primary"><i class="fa fa-edit"></i></button>
-                        <button type="button" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>
+                        <button type="button" ng-click="delete(item.id)" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></button>
                     </div>
                 </td>
             </tr>
