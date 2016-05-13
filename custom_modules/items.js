@@ -17,6 +17,7 @@ router.route('/')
 		});
 	})
 	.post(function(req, res) {
+		console.log(req);
 		var data = {
 				"item_code":01,
 				"item_name":"ok",
