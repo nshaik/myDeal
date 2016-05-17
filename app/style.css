@@ -1,81 +1,113 @@
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,500,700");
-
-body{
+body {
     background-color: #f5f5f5;
     font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
-.logo{
-    height: 100px; background-color: rgba(0,0,0,0.4);
+
+.logo {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
-.logo h1{
-    margin:0; text-align: center; color: #5FCE9B; line-height: 100px;
+
+.logo h1 {
+    margin: 0;
+    text-align: center;
+    color: #5FCE9B;
+    line-height: 100px;
 }
-.nav>li>a{
+
+.nav>li>a {
     color: #fff;
 }
-.nav>li>a:focus, .nav>li>a:hover{
-    background-color: #5FCE9B;  
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: #5FCE9B;
 }
-.nav>li.active>a,.nav>li.active>a:focus, .nav>li.active>a:hover
-{
-     background-color: #5FCE9B;
+
+.nav>li.active>a,
+.nav>li.active>a:focus,
+.nav>li.active>a:hover {
+    background-color: #5FCE9B;
 }
-.well-title h2{
+
+.well-title h2 {
     font-weight: 300;
     margin-top: 0px;
 }
+
 .left {
     width: 220px;
     background-color: #2f4050;
     position: absolute;
     height: 100%
 }
-.right{
+
+.right {
     margin-left: 220px;
 }
-.well-title{
+
+.well-title {
     background-color: #fff;
-    padding:1em 2em;
-    margin-bottom:1em;
-    border:1px solid #e7eaec;
-    border-width:1px 0px;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+    border: 1px solid #e7eaec;
+    border-width: 1px 0px;
 }
-.top-panel{
-    padding:1em 2em;
+
+.top-panel {
+    padding: 1em 2em;
 }
-.top-panel input{
+
+.top-panel input {
     background: none;
     border: none;
     padding: 8px 10px;
     border-bottom: 1px solid #ccc;
-    width:100%;
+    width: 100%;
 }
-.main-container{
-    padding:1em 2em;
+
+.main-container {
+    padding: 1em 2em;
 }
-.dashboard-labels div div{
-    height:100px;
+
+.dashboard-labels div div {
+    height: 100px;
     background-color: #5FCE9B;
-    color: #fff; 
+    color: #fff;
     font-size: 20px;
     padding: 15px;
 }
-.dashboard-labels .fa{
+
+.dashboard-labels .fa {
     font-size: 4em;
     float: right;
     opacity: 0.3
 }
-.dashboard-labels div:hover .fa{
+
+.dashboard-labels div:hover .fa {
     opacity: 0.8
 }
-.dashboard-labels div:nth-child(2) div{
+
+.dashboard-labels div:nth-child(2) div {
     background-color: #66B5D6;
 }
-.dashboard-labels div:nth-child(3) div{
+
+.dashboard-labels div:nth-child(3) div {
     background-color: #E87352;
 }
-.dashboard-labels div:nth-child(4) div{
+
+.dashboard-labels div:nth-child(4) div {
     background-color: #EECA5A;
+}
+
+.content-buttons {
+    position: relative;
+    top: -15px;
+}
+
+.table .checkbox {
+    margin-top: 0;
+    margin-bottom: 0;
 }

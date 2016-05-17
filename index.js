@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use('/api/items', items);
-app.use(express.static('app'));
+app.use(express.static('*'));
 
 var server = app.listen(3000, function() {
     var host = server.address().address;

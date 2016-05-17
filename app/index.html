@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="../bower_components/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" />
+    <!-- endbower -->
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body ng-app="st">
+</head>
+
+<body ng-app="st">
     <st-layout></st-layout>
-
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-    <script src="//code.angularjs.org/1.4.5/angular-route.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="lib/angular-bootstrap/ui-bootstrap-tpls-0.14.3.min.js"></script>
-
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
     <script src="modules/app/js/app.js"></script>
     <script src="modules/dashboard/js/dashboard.js"></script>
     <script src="modules/companies/js/companies.js"></script>
@@ -28,11 +30,11 @@
     <script src="modules/locations/js/locations.js"></script>
     <script src="modules/customers/js/customers.js"></script>
     <script src="modules/suppliers/js/suppliers.js"></script>
-
     <script src="components/nav/js/nav.js"></script>
     <script src="components/logo/js/logo.js"></script>
     <script src="components/layout/js/layout.js"></script>
     <script src="components/header/js/header.js"></script>
     <script src="components/titleSection/js/titleSection.js"></script>
-  </body>
+</body>
+
 </html>
